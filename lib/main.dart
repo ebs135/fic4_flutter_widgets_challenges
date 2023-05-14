@@ -18,6 +18,7 @@ import 'package:fic4_flutter_widgets_challenge/tugas/basic_widget/icon_widget.da
 import 'package:fic4_flutter_widgets_challenge/tugas/basic_widget/image_widget.dart';
 import 'package:fic4_flutter_widgets_challenge/tugas/basic_widget/scaffold_widget.dart';
 import 'package:fic4_flutter_widgets_challenge/tugas/basic_widget/text_widget.dart';
+import 'package:fic4_flutter_widgets_challenge/tugas/home.dart';
 import 'package:fic4_flutter_widgets_challenge/tugas/navigation/bottom_navbar.dart';
 import 'package:fic4_flutter_widgets_challenge/tugas/navigation/drawer_widget.dart';
 import 'package:fic4_flutter_widgets_challenge/tugas/navigation/navigation_pop.dart';
@@ -51,7 +52,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: StatelessStatefulWidget(),
+      home: HomePage(),
     );
   }
 }
